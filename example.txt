@@ -1,0 +1,52 @@
+//example 1
+
+
+//testing CONSTANT vaues and IDENTIFIERS
+//string within a string
+variableTester = "This is a \"nested\" string constant example"
+varible123455Tester = 1254
+v142d525 = true
+variable = false
+positiveInteger = (+3548)
+negativeInteger = (-3548)
+normalInteger = 3548
+floater = 3541.21455
+floater2 = .1452
+
+
+//testing logical operators
+a /\ b
+a \/ b
+a = ~b
+c = a -> b
+complex = ((a /\ b)->(~(d \/ f))) /\ p
+
+//testing the loop conditions
+loop (p/\q)
+	variableAssign = 3
+	p/\q
+endloop
+
+//testing if-else statement, algeb_op, logic_op
+
+if(var1>var2)
+
+   then   var1 = var2 % var1
+
+          if( var1 >= 0 /\ var2 ~= 0 )
+
+              then var1 = 23 * 1
+
+else   var1 = var1 % var2
+
+
+//testing the function/predicate declaration
+function name(param1,param2,param3) {
+	subtract = a-b
+	divide = a/b
+}
+
+//testing the function instantiation
+name("Myname14522",1242,k)
+
+var1 == var2
